@@ -8,7 +8,7 @@
 - 对话导出为Markdown文件
 - ChatGPT语音交流（推荐电脑端Edge浏览器） 
 ### 使用方法：
-- （不选择本地部署）访问``
+- （不选择本地部署）访问`https://chanbengz-gpt-helper-app-8n30kz.streamlit.app/`
 - 新建对话窗口
 - 选择上下文”低代码平台安全检查“
 - 输入工作流
