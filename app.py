@@ -8,7 +8,7 @@ from requests.models import ChunkedEncodingError
 from streamlit.components import v1
 from voice_toolkit import voice_toolkit
 
-st.set_page_config(page_title='ChatGPT Assistant', layout='wide', page_icon='🤖')
+st.set_page_config(page_title='GPT Security Assisstant', layout='wide', page_icon='🤖')
 # 自定义元素样式
 st.markdown(css_code, unsafe_allow_html=True)
 
@@ -128,9 +128,6 @@ with st.sidebar:
     - 双击页面可直接定位输入栏
     - Ctrl + Enter 可快捷提交问题
     """)
-    st.markdown('<a href="https://github.com/PierXuY/ChatGPT-Assistant" target="_blank" rel="ChatGPT-Assistant">'
-                '<img src="https://badgen.net/badge/icon/GitHub?icon=github&amp;label=ChatGPT Assistant" alt="GitHub">'
-                '</a>', unsafe_allow_html=True)
 
 # 加载数据
 if "history" + current_chat not in st.session_state:
